@@ -51,4 +51,4 @@ class Overload {
 }
 ```
 # output
-![output of add](add.png)
+![output of addition](addition.png)
