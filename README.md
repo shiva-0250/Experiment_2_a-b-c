@@ -22,7 +22,7 @@ class Square {
     }
 }
 ```
-#output
+# output:
 ![output of square](square.png)
 
 # Experiment_2b
@@ -50,5 +50,37 @@ class Overload {
   }
 }
 ```
-# output
+# output:
 ![output of addition](addition.png)
+
+# Experiment_2c
+## Title:Impliment Constructer
+## Source code:
+```
+java
+
+class Student {
+  String name;
+  int age;
+  double marks;
+  Student(String n,int a,double m) {
+     name=n;
+     age=a;
+     marks=m;
+  }
+
+  void display() {
+     System.out.println("Name:"+name);
+     System.out.println("Age:"+age);
+     System.out.println("Marks:"+marks);
+  }
+}
+class Details {
+    public static void main(String[] args) {
+       Student std=new Student("Rahul",18,98.9);
+          std.display();
+   }
+}
+```
+## output:
+![output of Student](Student.png)
