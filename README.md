@@ -1,9 +1,7 @@
 # Experiment_2a
 ## Title:impliment ofmechanism of class
 ## course code:
-```
-java
-
+```java
 class Square {
     int area(int side) {
         return side * side;
@@ -28,8 +26,7 @@ class Square {
 # Experiment_2b
 ## Title:Impliment method of Overload
 ## coursecode:
-```
-java
+```java
 class Add {
    int add1(int a,int b) {
    return a+b;
@@ -56,9 +53,7 @@ class Overload {
 # Experiment_2c
 ## Title:Impliment Constructer
 ## Source code:
-```
-java
-
+```java
 class Student {
   String name;
   int age;
