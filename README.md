@@ -24,3 +24,31 @@ class Square {
 ```
 #output
 ![output of square](square.png)
+
+# Experiment_2b
+## Title:Impliment method of Overload
+## coursecode:
+```
+java
+class Add {
+   int add1(int a,int b) {
+   return a+b;
+   }
+   double add2(double a,double b) {
+   return a+b;
+   }
+   int add3(int a,int b,int c) {
+   return a+b+c;
+   }
+}
+class Overload {
+  public static void main(String[] args) {
+   Add obj=new Add();
+   System.out.println("the addition of two integers is :"+obj.add1(1,2));
+   System.out.println("the addition of two real numbers is:"+obj.add2(2.45,7.84));
+   System.out.println("the addition of three integers is:"+obj.add3(10,20,30));
+  }
+}
+```
+# output
+![output of add](add.png)
