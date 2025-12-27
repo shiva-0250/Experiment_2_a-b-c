@@ -23,4 +23,4 @@ class Square {
 }
 ```
 #output
-![output of Square](Square.png)
+![output of square](square.png)
